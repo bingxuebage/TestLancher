@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/top_view"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/test1_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="移動" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/test2_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+    </LinearLayout>
+
+
+</RelativeLayout>

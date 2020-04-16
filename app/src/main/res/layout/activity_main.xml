@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestMainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/ly1"
+        android:layout_width="180dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/test1_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="第二屏" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/test2_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="变色" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n是的发生\n\n\n\n" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/ly2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/ly1"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical"></LinearLayout>
+
+</RelativeLayout>

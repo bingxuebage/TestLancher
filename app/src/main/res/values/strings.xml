@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestLancher</string>
+    <string name="accessibility_service_description">我是服务内容描述内容</string>
+    <string name="accessibility_service_label">我是服务内容标签</string>
+</resources>
